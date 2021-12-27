@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Forbidden-A"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Forbidden-A/fabric-kotlin-template",
+    "sources": "https://github.com/Forbidden-A/fabric-kotlin-template"
+  },
+
+  "license": "LGPLv3",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.forb.example.ExampleMod"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17",
+    "fabric-language-kotlin": ">=1.7.1+kotlin.1.6.10"
+  }
+}
